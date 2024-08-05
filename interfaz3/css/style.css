@@ -351,10 +351,22 @@ cursor: pointer;
 }
 
 
+.tradingtext {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center; /* Para centrar el contenido horizontalmente */
+}
+
+.securetext {
+    display: block;
+    text-align: center; /* Para centrar el contenido horizontalmente */
+    font-size: 10px;
+}
 
 
-
-
+.text-green {
+    color: green;
+}
 
 .progress-container {
     position: relative; /* Contenedor relativo para posicionar elementos hijos absolutamente */
