@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         img.style.display = 'block'; // Ensure it's visible
         img.style.position = 'fixed';
-        img.style.maxWidth = '50px';
+        img.style.maxWidth = '60px';
         img.style.height = 'auto';
         img.style.zIndex = '15';
         img.style.pointerEvents = 'none';
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Continuously create new juice boxes at random intervals
-    setInterval(createAndAnimateJuiceBox, 1000); // Adjust interval as needed
+    setInterval(createAndAnimateJuiceBox, 500); // Adjust interval as needed
 });
 
 
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
       images[index].style.display = 'block'; // Mostrar la siguiente imagen
     }
 
-    setInterval(changeImage, 2000); // Cambiar cada 3 segundos (3000 milisegundos)
+    setInterval(changeImage, 1000); // Cambiar cada 3 segundos (3000 milisegundos)
   });
 
 
